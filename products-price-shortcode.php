@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Products Price Shortcode
  * Plugin URI:  https://github.com/MatinKhamooshi/products-price-shortcode
- * Description: نمایش لیست قیمت محصولات با شورت‌کد [products_price ids="1,2"]
+ * Description: Display list of products name and price with shortcode [products_price ids="1,2"]
  * Version:     1.0.0
  * Author:      Matin Khamooshi
  * Author URI:  https://matinkhamooshi.ir/
