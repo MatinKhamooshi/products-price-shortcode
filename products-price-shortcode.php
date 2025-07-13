@@ -3,7 +3,7 @@
  * Plugin Name: Products Price Shortcode
  * Plugin URI:  https://github.com/MatinKhamooshi/products-price-shortcode
  * Description: Display list of products name and price with shortcode [products_price ids="1,2"]
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Matin Khamooshi
  * Author URI:  https://matinkhamooshi.ir/
  * Text Domain: products-price-shortcode
@@ -60,7 +60,7 @@ function pps_products_price_shortcode( $atts ) {
         // آماده‌سازی متن قیمت
         if ( $sale_price && $sale_price < $regular_price ) {
             $price_text = sprintf(
-                '%s + %s',
+                '<del>%s</del> %s',
                 wc_price( $regular_price ),
                 wc_price( $sale_price )
             );
